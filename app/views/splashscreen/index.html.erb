@@ -1,0 +1,9 @@
+<%= form_for @lead do |f| %>
+  <%= f.label :name, 'Name' %>:
+  <%= f.text_field :name %><br />
+  <%= f.label :email, 'Email' %>:
+  <%= f.text_field :email %><br />
+  <%= f.label :phone, 'Phone' %>:
+  <%= f.text_field :phone %><br />
+  <%= f.submit %>
+<% end %>
